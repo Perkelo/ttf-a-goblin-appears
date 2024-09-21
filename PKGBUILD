@@ -2,14 +2,14 @@
 
 pkgname=ttf-a-goblin-appears
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A Goblin Appears Font"
 arch=(any)
 license=('FSLA')
 depends=(fontconfig xorg-font-utils)
 url="https://www.fontspace.com/a-goblin-appears-font-f30019"
 source=("a-goblin-appears-font.zip::https://get.fontspace.co/download/family/l2r2m/819c16ad096f48f9abe5a0525e06335a/a-goblin-appears-font.zip")
-sha256sums=('519c2f5cf4cdb67369e7cb7d6726cf2bee60eb6eb2ac3c595da948e01c98fc64')
+sha256sums=('840e010ae6fb18b7c71027bc4666608cb7138ceb8ca9adce2fdcc0618863fd8f')
 install=$pkgname.install
 
 package() {
